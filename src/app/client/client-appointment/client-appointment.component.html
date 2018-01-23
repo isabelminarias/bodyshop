@@ -1,0 +1,22 @@
+<app-client-navbar></app-client-navbar>
+<br>
+<img src='../../assets/3.jpg' width='100%'>
+<br><br>
+
+<p class="lead">Reminder: You cannot request for an appointment without a registered car</p>
+<form class="form-inline">
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select one of your currently registered cars</label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Choose...</option>
+    <option value="1">Car Name 1</option>
+    <option value="2">Car Name 2</option>
+    <option value="3">Car Name 3</option>
+  </select>
+
+  <div class="custom-control custom-checkbox my-1 mr-sm-2">
+    <input type="checkbox" class="custom-control-input" id="customControlInline">
+    <label class="custom-control-label" for="customControlInline">Remember my preference</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary my-1" routerLink='-%value'>Submit</button>
+</form>

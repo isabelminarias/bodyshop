@@ -9,6 +9,8 @@ import { ClientNavbarComponent } from './client/client-navbar/client-navbar.comp
 import { ClientHomeComponent } from './client/client-home/client-home.component';
 import { ClientCarComponent } from './client/client-car/client-car.component';
 import { ClientCarRegisterComponent } from './client/client-car-register/client-car-register.component';
+import { RegisterClientComponent } from './users/register-client/register-client.component';
+import { ClientAppointmentComponent } from './client/client-appointment/client-appointment.component';
 
 const routes: Routes = [
 	{
@@ -40,8 +42,12 @@ const routes: Routes = [
 	  	component: ClientCarComponent
 	  },
 	  {
-	  	path: 'manager',
-	  	component: HomeComponent
+	  	path: 'client/creq-app',
+	  	component: ClientAppointmentComponent
+	  },
+	  {
+	  	path: 'register-client',
+	  	component: RegisterClientComponent
 	  }
 ];
 
