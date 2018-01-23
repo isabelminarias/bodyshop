@@ -51,7 +51,7 @@ const routes: Routes = [
 	  	component: RegisterClientComponent
 	  },
 	  {
-	  	path: 'admin-userlist',
+	  	path: 'admin/userlist',
 	  	component: AdminManageUsersComponent
 	  }
 ];
