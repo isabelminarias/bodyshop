@@ -8,5 +8,4 @@ html{
 }
 
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
-
-@import "../node_modules/font-awesome/css/font-awesome.css";
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";

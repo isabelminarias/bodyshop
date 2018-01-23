@@ -12,6 +12,8 @@ import { ClientCarRegisterComponent } from './client/client-car-register/client-
 import { RegisterClientComponent } from './users/register-client/register-client.component';
 import { ClientAppointmentComponent } from './client/client-appointment/client-appointment.component';
 import { AdminManageUsersComponent } from './admin/admin-manage--users/admin-manage--users.component';
+import { ManagerHomeComponent } from './manager/manager-home/manager-home.component';
+import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
 
 const routes: Routes = [
 	{
@@ -53,6 +55,14 @@ const routes: Routes = [
 	  {
 	  	path: 'admin/userlist',
 	  	component: AdminManageUsersComponent
+	  },
+	  {
+	  	path: 'manager',
+	  	component: ManagerHomeComponent
+	  },
+	  {
+	  	path:'admin',
+	  	component: AdminHomeComponent
 	  }
 ];
 

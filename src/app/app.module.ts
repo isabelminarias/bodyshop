@@ -17,6 +17,8 @@ import { RegisterClientComponent } from './users/register-client/register-client
 import { ClientAppointmentComponent } from './client/client-appointment/client-appointment.component';
 import { AdminManageUsersComponent } from './admin/admin-manage--users/admin-manage--users.component';
 import { ManagerHomeComponent } from './manager/manager-home/manager-home.component';
+import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
+import { AdminInventoryComponent } from './admin/admin-inventory/admin-inventory.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { ManagerHomeComponent } from './manager/manager-home/manager-home.compon
     RegisterClientComponent,
     ClientAppointmentComponent,
     AdminManageUsersComponent,
-    ManagerHomeComponent
+    ManagerHomeComponent,
+    AdminHomeComponent,
+    AdminInventoryComponent
   ],
   imports: [
     BrowserModule,

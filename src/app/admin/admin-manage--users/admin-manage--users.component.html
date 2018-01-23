@@ -1,14 +1,16 @@
 <nav class="navbar navbar-dark justify-content-between sticky-top" style="background-color: #283891">
   
-  	<a class="navbar-brand" routerLink='admin'>
-	  	<img src="../../../assets/favicon-32x32.png" width="30" height="30" class="d-inline-block align-top" alt="">
-		<span style="font-family: 'Alegreya Sans'">Dashboard</span>
+  	<a class="navbar-brand" routerLink='/admin'>
+		<span style="font-family: 'Alegreya Sans'">
+			<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+			Dashboard
+		</span>
 	</a>
 	<span class="navbar-text">
 	    Welcome, Admin [Name]! 
 	  </span>
 	  <form class="form-inline">
-	    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Log Out</button>
+	    <button class="btn btn-outline-light my-2 my-lg-0" type="submit"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
 	  </form>
   
 </nav>
@@ -17,7 +19,7 @@
 	<div class="row" style='border-bottom: 5px solid #C8E8ED'></div>
 	<div class="row" id='managers-row'>
 		<div class="col-md-3">
-				<img alt="Bootstrap Image Preview" src="../../assets/pic-manager.png" class="img-thumbnail" width="100%" />
+				<img alt="Bootstrap Image Preview" src="../../assets/pic-manager.png" width="100%" />
 			
 			<div class="panel panel-info">
 				<div class="panel-heading">
