@@ -3,8 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Nunito+Sans|Work+Sans');
 
 html{
-	font-family: 'Nunito Sans', sans-serif !important;
+	font-family:'Work Sans', 'Nunito Sans', sans-serif !important;
 	background-color: #C8E8ED !important;
 }
 
-@import 'node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+@import "../node_modules/font-awesome/css/font-awesome.css";
