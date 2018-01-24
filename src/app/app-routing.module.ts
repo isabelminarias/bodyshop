@@ -14,6 +14,7 @@ import { ClientAppointmentComponent } from './client/client-appointment/client-a
 import { AdminManageUsersComponent } from './admin/admin-manage--users/admin-manage--users.component';
 import { ManagerHomeComponent } from './manager/manager-home/manager-home.component';
 import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
+import { AdminInventoryComponent } from './admin/admin-inventory/admin-inventory.component';
 
 const routes: Routes = [
 	{
@@ -63,6 +64,10 @@ const routes: Routes = [
 	  {
 	  	path:'admin',
 	  	component: AdminHomeComponent
+	  }
+	  {
+	  	path: 'admin/inv',
+	  	component: AdminInventoryComponent
 	  }
 ];
 
