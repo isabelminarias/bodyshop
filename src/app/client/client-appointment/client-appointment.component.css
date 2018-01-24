@@ -1,0 +1,16 @@
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.col-md-7{
+	padding-top:4%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.jumbotron{
+	background-color: rgba(254,138,49,.8);
+}
+
+.col-md-3{
+	padding-top:4%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
