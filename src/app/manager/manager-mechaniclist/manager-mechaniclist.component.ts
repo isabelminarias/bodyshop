@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-manager-mechaniclist',
   templateUrl: './manager-mechaniclist.component.html',
-  styleUrls: ['./manager-mechaniclist.component.css']
+  styleUrls: ["../../../../node_modules/bootstrap/dist/css/bootstrap.css",
+  './manager-mechaniclist.component.css']
 })
 export class ManagerMechaniclistComponent implements OnInit {
 

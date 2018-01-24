@@ -1,0 +1,9 @@
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+p{
+	padding-top: 10px;
+	padding-right: 5px;
+	font-size: 16px;
+}
+.container{
+	margin-left: 2%;
+}

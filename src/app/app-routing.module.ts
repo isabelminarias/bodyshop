@@ -17,6 +17,7 @@ import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
 import { AdminInventoryComponent } from './admin/admin-inventory/admin-inventory.component';
 import { ManagerCarcheckComponent } from './manager/manager-carcheck/manager-carcheck.component';
 import { ManagerWlComponent } from './manager/manager-wl/manager-wl.component';
+import { ManagerMechaniclistComponent } from './manager/manager-mechaniclist/manager-mechaniclist.component';
 
 const routes: Routes = [
 	{
@@ -74,6 +75,10 @@ const routes: Routes = [
 	  {
 	  	path:'manager/waiting-list',
 	  	component: ManagerWlComponent
+	  },
+	  {
+	  	path: 'manager/mechanic-list',
+	  	component: ManagerMechaniclistComponent
 	  }
 ];
 
