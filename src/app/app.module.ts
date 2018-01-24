@@ -19,6 +19,8 @@ import { AdminManageUsersComponent } from './admin/admin-manage--users/admin-man
 import { ManagerHomeComponent } from './manager/manager-home/manager-home.component';
 import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
 import { AdminInventoryComponent } from './admin/admin-inventory/admin-inventory.component';
+import { ManagerCarcheckComponent } from './manager/manager-carcheck/manager-carcheck.component';
+import { ManagerWlComponent } from './manager/manager-wl/manager-wl.component';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { AdminInventoryComponent } from './admin/admin-inventory/admin-inventory
     AdminManageUsersComponent,
     ManagerHomeComponent,
     AdminHomeComponent,
-    AdminInventoryComponent
+    AdminInventoryComponent,
+    ManagerCarcheckComponent,
+    ManagerWlComponent
   ],
   imports: [
     BrowserModule,
